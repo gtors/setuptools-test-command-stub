@@ -8,6 +8,6 @@ def patch():
         ...
     else:
         # For bypassing ProjectBuilder.from_isolated_env
-        _DEFAULT_BACKEND["requires"] = "setuptools-test-command-stub"
+        _DEFAULT_BACKEND["requires"].append("setuptools-test-command-stub")
 
     sys.modules["setuptools.command.test"] = MagicMock()

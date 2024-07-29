@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "setuptools-test-command-stub"
-version = "0.1.1"
+version = "0.1.2"
 description = "Patches setuptools.command.test with mock"
 authors = ["Andrey Torsunov <andrey.torsunov@gmail.com>"]
 license = "MIT"
